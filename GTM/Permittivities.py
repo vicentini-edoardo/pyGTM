@@ -202,7 +202,7 @@ def eps_hBNz(f):
     :param array f: frequency (array or float)
     :return: permittivity (float or len(f)-array)
     """
-    wlhBNz      = 811**c_const*1e2
+    wlhBNz      = 811*c_const*1e2
     wthBNz      = 760*c_const*1e2
     GthBNz      = 1*c_const*1e2
     epsinfhBNz  = 2.95    
